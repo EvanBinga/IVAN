@@ -1,0 +1,139 @@
+.Contacts{
+
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.w{
+    font-size: 30px;
+}
+
+.Name:focus {
+    border-color: black;
+  }
+
+.Name{
+    position: relative;
+}
+
+.Phone{
+ position: relative;
+ top: 30px;
+}
+
+.Massage{
+    position: relative;
+    top: 170px;
+}
+
+.lets{
+    position: relative;
+    top: 310px;
+    margin: 0 auto;
+}
+.work{
+    position: relative;
+    top: 330px;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.icons1{
+    position: relative;
+    top: 370px;
+    padding-bottom: 20px;
+}
+
+.send{
+    position: relative;
+    top: 150px;
+    background-color: #585858;
+        padding: 15px 55px;
+        text-decoration: none; 
+        color: white;
+        border-radius: 5px;
+}
+
+
+
+.send:hover{
+    border: 1px solid #585858;
+    background-color: white;
+    color: #585858;
+   transition: 0.3s;
+}
+
+
+
+a{
+padding-left: 10px;
+
+}
+
+.telega{
+
+    width: 30px;
+    height: 30px;
+}
+
+.insta{
+
+    width: 30px;
+    height: 30px;
+}
+.beh{
+
+    width: 30px;
+    height: 30px;
+}
+
+.git{
+    width: 30px;
+    height: 30px;
+}
+
+
+@media (max-width: 750px) {
+
+    .Contacts{
+        display: none;
+    }
+
+//     .icons1{
+//         display: block;
+//         position: absolute;
+//         top: 1300px;
+//         z-index: 999;
+//         right: 100px;
+//         width: 500px;
+//         left: 230px;
+//         top: 1100px;
+//     }
+
+
+//     .telega{
+
+//         width: 70px;
+//         height: 70px;
+//     }
+    
+//     .insta{
+    
+//         width: 70px;
+//         height: 70px;
+//         margin-left: 30px;
+//     }
+//     .beh{
+    
+//         width: 70px;
+//         height: 70px;
+//         margin-left: 30px;
+//     }
+    
+//     .git{
+//         width: 70px;
+//         height: 70px;
+//         margin-left: 30px;
+//     }
+    }

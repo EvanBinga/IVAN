@@ -1,0 +1,39 @@
+.ivan {
+    position: relative;
+    width: 500px;
+    margin: 0 auto;
+    top: 190px;
+    left: 16px;
+}
+
+.front {
+    position: relative;
+    right: 0px;
+    margin: 0 auto;
+    margin-top: 240px;
+}
+
+.ivantext{
+    position: relative;
+    right: 5px;
+    top: 14px;
+    margin: 0 auto;
+    width: 400px;
+}
+
+.fixed_conteiner{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    z-index: 999;
+    margin: 0 auto;
+    height: 750px;
+}
+
+
+@media (max-width: 750px) {
+
+    .fixed_conteiner{
+        display: none;
+    }
+
+}

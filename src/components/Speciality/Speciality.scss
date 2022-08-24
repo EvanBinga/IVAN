@@ -1,0 +1,41 @@
+.speciality {
+    width: 100%;
+    height: 380px;
+    background-color: #EBE8E8;
+}
+
+.sample {
+    width: 960px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.one_block {
+    border: 0;
+    width: 300px;
+    float: left;
+}
+
+.two_block {
+    margin-top: 0;
+    float: right;
+}
+
+p{
+    width: 300px;
+}
+
+.line{
+    position: absolute;
+    width: 730px;
+    height: 2px;
+    background-color: black;
+    margin-top: 35px;
+}
+
+@media (max-width: 750px) {
+    .speciality{
+        display: none;
+    }
+
+}

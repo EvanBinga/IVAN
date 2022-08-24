@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+}
+
+nav{
+
+  background-color: white;
+  position: fixed;
+  display: none;
+  align-items: center;
+  z-index: 999;
+}
+
+.Burger{
+  display: block;
+  width: 50px;
+  height: 30px;
+  margin-left: 30px;
+  position: relative;
+  z-index: 9999;
+  cursor: pointer;
+}
+
+.logo{
+  position: relative;
+  left: 1300px;
+  bottom: 9px;
+}
+
+span{
+  position: absolute;
+  margin-top: 13px;
+  width: 40px;
+  background-color: black;
+  height: 4px;
+  z-index: 9999;
+}
+
+.Burger::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  width: 40px;
+  background-color: black;
+  height: 4px;
+  z-index: 9999;
+}
+
+.Burger::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 40px;
+  background-color: black;
+  height: 4px;
+  z-index: 9999;
+}
+
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: white;
+  transition: 0.2s;
+}
+
+li{
+  display: inline;
+  margin-right: 25px;
+  
+}
+
+.navbar{
+  float: left;
+}
+
+.navbar_2{
+  float: right;
+}
+
+.Logo{
+  position: relative;
+  bottom: 5px;
+  margin: 0 auto;
+}
+
+.Menu{
+  position: fixed;
+  top: 0;
+  width: 500px;
+  margin: 0 auto;
+  background-color:#CFCFCF;
+  border-radius: 0px 0px 17px 17px;
+  z-index: 888;
+  padding-left: 24px;
+}
+.Header{
+  
+  margin: 0 auto;
+  width: 500px;
+
+}
+
+.Burger{
+  display: none;
+}
+
+
+
+
+@media (max-width: 750px) {
+
+  .Burger{
+    display: block;
+  }
+
+  .Header{
+    display: none;
+  }
+
+    nav{
+      display: flex;
+      width: 100%;
+  }
+
+}

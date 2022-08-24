@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: white;
+    transition: 0.2s;
+}
+
+li{
+    display: inline;
+    margin-right: 25px;
+    
+}
+
+.navbar{
+    float: left;
+}
+
+.navbar_2{
+    float: right;
+}
+
+.Logo{
+    position: relative;
+    bottom: 5px;
+    margin: 0 auto;
+}
+
+.Menu{
+    position: fixed;
+    top: 0;
+    width: 500px;
+    margin: 0 auto;
+    background-color:#CFCFCF;
+    border-radius: 0px 0px 17px 17px;
+    z-index: 999;
+    padding-left: 24px;
+}
+.Header{
+    
+    margin: 0 auto;
+    width: 500px;
+
+}
+
+.Burger{
+    display: none;
+}
+
+
+.Logo2 {
+    display: none;
+}
+
+.mobileMenu{
+    display: none;
+}
+
+@media (max-width: 750px) {
+    .Header{
+        display: none;
+    }
+}

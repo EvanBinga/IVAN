@@ -1,0 +1,93 @@
+.fix-conteiner {
+    margin: 0 auto;
+    height: 650px;
+    background-color: #EBE8E8;
+}
+
+.conteiner{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+.SKL{
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.text1{
+    font-size: 15px;
+    color: white;
+    float: left;
+    background-color: #888888;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    text-align: left;
+    padding:30px;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.rjs{
+    position: relative;
+    top: 16px;
+    color: white;
+    background-color: #888888;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    margin: 0 auto  ;
+    padding:30px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 14px;
+    
+
+}
+
+.js{
+    float: right;
+    color: white;
+    background-color: #888888;
+    width: 230px;
+    height: 200px;
+    border-radius: 10px;
+    padding:30px;
+    text-align: left;
+    font-size: 13px;
+    line-height: 14px;
+}
+
+.icons{
+    position: relative;
+    top: 70px;
+    right: 346px;
+}
+
+.button1 {
+    position: relative;
+    background-color: #585858;
+    padding: 20px 75px;
+    text-decoration: none; 
+    color: white;
+    border-radius: 5px;
+    top: 130px;
+    right: 360px;
+  }
+
+  .button1:hover {
+    border: 1px solid #585858;
+    background-color: white;
+    color: #585858;
+   transition: 0.3s;
+  }
+
+
+  @media (max-width: 750px) {
+
+    .Skills{
+        display: none;
+    }
+
+}
